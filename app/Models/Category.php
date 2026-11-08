@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    protected $table = 'categories';
+    protected $primaryKey = 'category_id';
+    public $timestamps = false;
+
+    protected $fillable = ['
+        category_name',
+        'image'
+    ];
+
+    // Quan hệ với job
+    public function jobs()
+    {
+        return $this->hasMany(JobPosting::class, 'category_id');
+    }
+}

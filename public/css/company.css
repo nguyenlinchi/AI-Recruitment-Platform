@@ -1,0 +1,421 @@
+/* RESET NHẸ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+
+.company-header-full {
+    max-width: 1200px;   
+    margin: 70px auto 0; 
+    position: relative;
+
+    border-radius: 16px; 
+    overflow: hidden;    
+}
+
+/* Banner */
+.company-banner {
+    position: relative;
+    width: 100%;
+    height: 320px;            /* chiều cao đẹp */
+    overflow: hidden;
+}
+
+.company-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay */
+.banner-overlay {
+    position: absolute;
+    inset: 0;                 
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.6)
+    );
+     border-radius: 16px; 
+
+}
+
+/* Wrapper căn giữa */
+.company-info-wrapper {
+    max-width: 1200px;
+    margin: -80px auto 40px; 
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+}
+
+/* Box info */
+.company-info {
+    background: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* LEFT */
+.company-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* LOGO */
+.company-logo {
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+
+    border: 5px solid #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-right: 0;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* TITLE */
+.company-text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+}
+.pro-badge {
+    background: linear-gradient(135deg, #f5a623, #f7d44a);
+    color: white;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.company-meta {
+    margin-top: 10px;
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* BUTTON */
+.follow-btn {
+    background: #00b14f;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background: #009944;
+}
+
+.company-meta {
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.company-meta i {
+    margin-right: 6px;
+    color: #9ca3af;
+}
+
+
+.company-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* GRID CHA */
+.company-body {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 25px;
+
+    align-items: start;
+}
+
+/* LEFT COLUMN */
+.left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* RIGHT COLUMN */
+.right-col {
+    display: flex;
+}
+
+/* BOX CHUNG */
+.content-box {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+
+/* INNER */
+.section-box {
+    padding: 22px;
+}
+
+/* TITLE */
+.section-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #111827;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* line xanh */
+.section-box h3::before {
+    content: "";
+    width: 4px;
+    height: 18px;
+    background: #2563eb;
+    border-radius: 2px;
+}
+
+/* TEXT */
+.section-box p {
+    line-height: 1.8;
+    font-size: 15px;
+    color: #4b5563;
+}
+
+/* CONTACT */
+.contact-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* MAP */
+.map {
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.divider {
+  display: inline-block;
+  height: 2px;
+  background-color: #fd7f09;
+  width: 250px; 
+  margin: 0; 
+  vertical-align: middle;
+
+}
+/* GIỚI HẠN 5 DÒNG */
+.desc-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #4b5563;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;   /* 👈 5 dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* khi mở ra */
+.desc-text.show {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
+/* button */
+.read-more-btn {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    text-decoration: underline;
+}
+.recruitment-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* SEARCH */
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input,
+.search-bar select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.btn-search {
+    background: #3006e7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* JOB CARD */
+.job-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* CARD */
+.job-card-new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef5f2;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #e0e0e0;   
+}
+
+.section-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 10px;
+}
+.job-card-new:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+
+/* LEFT */
+.job-content {
+    flex: 1;
+}
+
+/* TITLE */
+.job-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a2b3c;
+    margin-bottom: 10px;
+    
+}
+
+.verify {
+    color: red;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* TAGS */
+.job-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.job-tags span {
+    display: inline-block;
+    background: #f1f5f9;
+    padding: 6px 12px;
+    border-radius: 999px; /* tròn hẳn */
+    font-size: 13px;
+    color: #444;
+    border: 1px solid #e0e0e0;
+}
+
+.deadline {
+    font-weight: 500;
+}
+
+.job-right {
+    display: flex;
+    flex-direction: column;   /* chia 2 dòng */
+    align-items: flex-end;    /* dồn sang phải */
+    gap: 26px;
+}
+
+/* dòng trên */
+.top-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* lương */
+.salary {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+/* PRO */
+.badge-pro {
+    background: linear-gradient(45deg, rgb(79, 104, 187), rgb(39, 122, 190));
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* HEART */
+.heart {
+    font-size: 20px;
+    color: #888;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
+}
