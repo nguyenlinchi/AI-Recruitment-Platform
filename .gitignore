@@ -1,0 +1,3 @@
+cv_classifier/model.safetensors
+cv_classifier/model.joblib
+__pycache__/

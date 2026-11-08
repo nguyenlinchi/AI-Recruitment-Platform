@@ -1,0 +1,1138 @@
+{
+  "data_engineer": {
+    "strengths": [
+      "SQL",
+      "Python",
+      "ETL",
+      "Spark",
+      "Hadoop",
+      "Data Warehouse",
+      "Database",
+      "Data Modeling",
+      "Data Processing",
+      "Cloud",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Big Data",
+      "Airflow",
+      "Kafka"
+    ],
+    "weaknesses": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Data Visualization",
+      "Tableau",
+      "Power BI",
+      "Real-world ETL Project",
+      "Streaming Data"
+    ]
+  },
+
+  "legal_public_relations": {
+    "strengths": [
+      "Communication",
+      "Crisis Management",
+      "Media Relations",
+      "Legal Writing",
+      "Public Speaking",
+      "Negotiation",
+      "Research",
+      "Content Writing",
+      "Brand Management"
+    ],
+    "weaknesses": [
+      "Legal Drafting",
+      "Contract Law",
+      "SEO",
+      "Digital Marketing",
+      "Data Analysis",
+      "Analytics Tools",
+      "Social Media Strategy"
+    ]
+  },
+
+  "human_resources": {
+    "strengths": [
+      "Recruitment",
+      "Interviewing",
+      "Employee Relations",
+      "HR Management",
+      "Labor Law",
+      "Onboarding",
+      "Performance Management",
+      "Communication",
+      "Conflict Resolution",
+      "Training Development"
+    ],
+    "weaknesses": [
+      "HR Analytics",
+      "Excel Advanced",
+      "HRIS System",
+      "Data Analysis",
+      "Payroll System",
+      "Strategic HR Planning",
+      "Automation Tools"
+    ]
+  }
+,
+  "accountant": {
+    "strengths": [
+      "Accounting",
+      "Financial Reporting",
+      "Tax",
+      "Auditing",
+      "General Ledger",
+      "Excel",
+      "Cost Accounting",
+      "IFRS",
+      "GAAP",
+      "Bookkeeping",
+      "Financial Statement",
+      "Budgeting",
+      "ERP",
+      "SAP",
+      "Oracle"
+    ],
+    "weaknesses": [
+      "Financial Analysis",
+      "Data Analytics",
+      "Business Intelligence",
+      "Power BI",
+      "Tableau",
+      "Automation",
+      "Python for Finance",
+      "Strategic Finance"
+    ]
+  },
+  "design": {
+    "strengths": [
+      "UI Design",
+      "UX Design",
+      "UI/UX",
+      "Figma",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe XD",
+      "Typography",
+      "Color Theory",
+      "User Research",
+      "Wireframe",
+      "Prototyping",
+      "Visual Design",
+      "Design Thinking"
+    ],
+    "weaknesses": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Frontend Development",
+      "React",
+      "Coding",
+      "Responsive Design",
+      "Animation",
+      "3D Design",
+      "Motion Graphics"
+    ]
+  },
+
+  "testing": {
+    "strengths": [
+      "Manual Testing",
+      "Automation Testing",
+      "Selenium",
+      "Test Case Design",
+      "Bug Tracking",
+      "Regression Testing",
+      "API Testing",
+      "Postman",
+      "QA",
+      "Test Planning",
+      "Test Execution",
+      "Jira"
+    ],
+    "weaknesses": [
+      "Programming",
+      "Python",
+      "Java",
+      "C#",
+      "Security Testing",
+      "Performance Testing",
+      "Load Testing",
+      "DevOps",
+      "CI/CD",
+      "Docker",
+      "Kubernetes"
+    ]
+  }
+,
+  "agriculture": {
+    "strengths": [
+      "Agriculture",
+      "Crop Management",
+      "Farming",
+      "Sustainable Farming",
+      "Soil Science",
+      "Irrigation",
+      "Agri-Tech",
+      "Pest Control",
+      "Agronomy",
+      "Farm Management",
+      "Precision Agriculture",
+      "Crop Production",
+      "Livestock Management"
+    ],
+    "weaknesses": [
+      "Supply Chain",
+      "Logistics",
+      "Financial Planning",
+      "Data Analytics",
+      "Automation",
+      "IoT Agriculture",
+      "AI Agriculture",
+      "Climate Risk Management"
+    ]
+  },
+
+  "arts": {
+    "strengths": [
+      "Art",
+      "Creative Design",
+      "Visual Arts",
+      "Digital Art",
+      "Illustration",
+      "Typography",
+      "Concept Art",
+      "Art History",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Figma",
+      "Exhibition Design",
+      "Creative Thinking",
+      "Visual Communication"
+    ],
+    "weaknesses": [
+      "Marketing",
+      "Business Skills",
+      "Digital Marketing",
+      "Social Media Marketing",
+      "Budgeting",
+      "Finance",
+      "Project Management",
+      "Networking",
+      "3D Modeling",
+      "UI UX Design"
+    ]
+  },
+
+  "consulting": {
+    "strengths": [
+      "Consulting",
+      "Problem Solving",
+      "Strategic Planning",
+      "Business Analysis",
+      "Market Research",
+      "Data Analysis",
+      "Presentation Skills",
+      "Communication",
+      "Client Management",
+      "Financial Analysis",
+      "Decision Making",
+      "Excel",
+      "PowerPoint",
+      "Critical Thinking"
+    ],
+    "weaknesses": [
+      "Implementation",
+      "Technical Skills",
+      "Coding",
+      "Software Development",
+      "Automation",
+      "Work-Life Balance",
+      "Project Execution",
+      "Engineering Skills",
+      "Deep Technical Expertise"
+    ]
+  }
+,
+  "data_science": {
+    "strengths": [
+      "Machine Learning",
+      "Deep Learning",
+      "Statistics",
+      "Statistical Modeling",
+      "Python",
+      "R",
+      "Data Analysis",
+      "Data Visualization",
+      "Tableau",
+      "Power BI",
+      "Predictive Analytics",
+      "NLP",
+      "Big Data",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Data Mining"
+    ],
+    "weaknesses": [
+      "Deployment",
+      "MLOps",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Software Engineering",
+      "API Development",
+      "System Design",
+      "Business Communication"
+    ]
+  },
+
+  "management": {
+    "strengths": [
+      "Leadership",
+      "Team Management",
+      "Strategic Planning",
+      "Decision Making",
+      "Project Management",
+      "Budgeting",
+      "Stakeholder Management",
+      "Change Management",
+      "Risk Management",
+      "Communication",
+      "Business Strategy",
+      "Organizational Development"
+    ],
+    "weaknesses": [
+      "Technical Skills",
+      "Coding",
+      "Data Analysis",
+      "Emotional Intelligence",
+      "Micromanagement",
+      "Process Automation",
+      "Agile Methodology",
+      "Software Tools"
+    ]
+  },
+
+  "digital_media": {
+    "strengths": [
+      "Content Creation",
+      "Content Strategy",
+      "SEO",
+      "SEM",
+      "Digital Marketing",
+      "Social Media Marketing",
+      "Video Editing",
+      "Adobe Premiere",
+      "Adobe After Effects",
+      "Analytics",
+      "Google Analytics",
+      "Branding",
+      "Trend Analysis",
+      "Copywriting"
+    ],
+    "weaknesses": [
+      "Technical SEO",
+      "Conversion Optimization",
+      "Data Engineering",
+      "Advanced Analytics",
+      "Programming",
+      "Marketing Automation",
+      "A/B Testing",
+      "Performance Marketing"
+    ]
+  }
+,
+  "devops_engineer": {
+    "strengths": [
+      "CI/CD",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Infrastructure as Code",
+      "Cloud",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Cloud Security",
+      "Monitoring",
+      "Prometheus",
+      "Grafana",
+      "Linux",
+      "Shell Scripting",
+      "Bash",
+      "Automation",
+      "DevOps",
+      "Deployment",
+      "Git",
+      "Jenkins"
+    ],
+    "weaknesses": [
+      "Software Development",
+      "Frontend Development",
+      "Backend Development",
+      "System Design",
+      "Application Development",
+      "Testing",
+      "UI/UX",
+      "Product Development"
+    ]
+  },
+
+  "information_technology": {
+  "strengths": [
+    "PHP",
+    "Laravel",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "jQuery",
+    "AJAX",
+    "Git",
+    "Composer",
+    "Postman",
+    "Flask",
+    "FastAPI",
+    "API Development"
+  ],
+  "weaknesses": [
+    "Cloud Computing",
+    "Docker",
+    "CI/CD",
+    "Unit Testing",
+    "System Design",
+    "Microservices",
+    "Performance Optimization",
+    "DevOps",
+    "Cybersecurity"
+  ]
+},
+
+  "education": {
+    "strengths": [
+      "Teaching",
+      "Curriculum Design",
+      "Instructional Design",
+      "Classroom Management",
+      "Student Engagement",
+      "Educational Technology",
+      "E-learning",
+      "Communication",
+      "Presentation Skills",
+      "Training",
+      "Assessment",
+      "Pedagogy",
+      "Learning Management System"
+    ],
+    "weaknesses": [
+      "Technology Integration",
+      "Digital Tools",
+      "Online Teaching Platforms",
+      "Data Analytics",
+      "Administrative Tasks",
+      "EdTech Automation",
+      "Personalized Learning Systems",
+      "AI in Education"
+    ]
+  }
+,
+  "banking": {
+    "strengths": [
+      "Banking",
+      "Financial Analysis",
+      "Risk Management",
+      "Compliance",
+      "Customer Service",
+      "Credit Analysis",
+      "Credit Scoring",
+      "Investment",
+      "Portfolio Management",
+      "Loan Processing",
+      "Accounting",
+      "Financial Reporting",
+      "Regulatory Compliance",
+      "AML",
+      "KYC"
+    ],
+    "weaknesses": [
+      "Fintech",
+      "Digital Banking",
+      "Blockchain",
+      "Data Analytics",
+      "AI in Finance",
+      "Automation",
+      "UX Design",
+      "Customer Experience Systems"
+    ]
+  },
+
+  "aviation": {
+    "strengths": [
+      "Aviation",
+      "Flight Safety",
+      "Safety Protocols",
+      "Flight Operations",
+      "Technical Operations",
+      "Flight Planning",
+      "Navigation Systems",
+      "Air Traffic Control",
+      "Aircraft Maintenance",
+      "Crisis Management",
+      "Regulatory Compliance",
+      "Aviation Law",
+      "Pilot Training",
+      "Logistics"
+    ],
+    "weaknesses": [
+      "High Cost Operations",
+      "Fuel Management",
+      "Fatigue Management",
+      "Digital Transformation",
+      "Automation",
+      "Data Analytics",
+      "AI Systems",
+      "Predictive Maintenance"
+    ]
+  },
+
+  "sap_developer": {
+    "strengths": [
+      "SAP",
+      "ABAP",
+      "SAP HANA",
+      "SAP Fiori",
+      "SAP MM",
+      "SAP FI",
+      "SAP SD",
+      "BAPI",
+      "RFC",
+      "Business Process Mapping",
+      "ERP",
+      "System Integration",
+      "Database",
+      "SQL",
+      "Enterprise Systems"
+    ],
+    "weaknesses": [
+      "Open Source Development",
+      "Web Development",
+      "Frontend Development",
+      "React",
+      "Node.js",
+      "Python",
+      "Cloud Native Systems",
+      "Microservices",
+      "DevOps",
+      "CI/CD"
+    ]
+  }
+,
+  "python_developer": {
+    "strengths": [
+      "Python",
+      "Django",
+      "Flask",
+      "FastAPI",
+      "API Development",
+      "REST API",
+      "Backend Development",
+      "Scripting",
+      "Automation",
+      "Web Development",
+      "Git",
+      "MySQL",
+      "PostgreSQL",
+      "Clean Code",
+      "OOP",
+      "Software Development"
+    ],
+    "weaknesses": [
+      "Frontend Development",
+      "React",
+      "Vue",
+      "Angular",
+      "DevOps",
+      "Docker",
+      "Kubernetes",
+      "System Design",
+      "Cloud",
+      "AWS",
+      "CI/CD",
+      "Microservices",
+      "Multi-threading",
+      "Memory Management"
+    ]
+  },
+
+  "react_developer": {
+    "strengths": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Redux",
+      "Zustand",
+      "Hooks",
+      "Component-Based Architecture",
+      "Virtual DOM",
+      "Frontend Development",
+      "Responsive Design",
+      "HTML",
+      "CSS",
+      "UI Development",
+      "Web Development",
+      "State Management"
+    ],
+    "weaknesses": [
+      "Backend Development",
+      "Database",
+      "SQL",
+      "API Development",
+      "Server-side Programming",
+      "DevOps",
+      "Docker",
+      "Kubernetes",
+      "System Design",
+      "Performance Optimization",
+      "SEO",
+      "Testing"
+    ]
+  },
+
+  "etl_developer": {
+    "strengths": [
+      "ETL",
+      "Data Pipeline",
+      "Data Transformation",
+      "Data Integration",
+      "Informatica",
+      "Talend",
+      "SQL",
+      "Data Warehouse",
+      "Data Quality",
+      "Data Mapping",
+      "Performance Tuning",
+      "Database",
+      "Big Data",
+      "Data Engineering",
+      "Metadata Management"
+    ],
+    "weaknesses": [
+      "Real-time Streaming",
+      "Apache Kafka",
+      "Spark Streaming",
+      "Machine Learning",
+      "AI",
+      "Frontend Development",
+      "UI/UX",
+      "Cloud Architecture",
+      "DevOps",
+      "Docker",
+      "Kubernetes",
+      "Advanced SQL Optimization"
+    ]
+  }
+,
+  "mechanical_engineer": {
+    "strengths": [
+      "Mechanical Engineering",
+      "CAD",
+      "CAM",
+      "Thermodynamics",
+      "Materials Science",
+      "Machine Design",
+      "Quality Control",
+      "Fluid Mechanics",
+      "Manufacturing",
+      "SolidWorks",
+      "AutoCAD",
+      "Engineering Design",
+      "Mechanical Systems",
+      "Production Engineering"
+    ],
+    "weaknesses": [
+      "Programming",
+      "Software Development",
+      "IoT",
+      "Embedded Systems",
+      "Data Analysis",
+      "Automation",
+      "AI",
+      "Machine Learning",
+      "Cost Estimation Software"
+    ]
+  },
+
+  "electrical_engineer": {
+    "strengths": [
+      "Electrical Engineering",
+      "Circuit Design",
+      "Power Systems",
+      "PLC Programming",
+      "Control Systems",
+      "Renewable Energy",
+      "PCB Design",
+      "Electronics",
+      "Embedded Systems",
+      "Signal Processing",
+      "Electrical Machines",
+      "Automation",
+      "Instrumentation"
+    ],
+    "weaknesses": [
+      "Software Development",
+      "Programming",
+      "IoT Systems",
+      "Cloud Integration",
+      "Data Analytics",
+      "Cyber Security",
+      "Advanced Debugging",
+      "Documentation"
+    ]
+  },
+
+  "project_management": {
+    "strengths": [
+      "Project Management",
+      "Agile",
+      "Scrum",
+      "Kanban",
+      "Resource Allocation",
+      "Risk Management",
+      "Risk Mitigation",
+      "Jira",
+      "Asana",
+      "Timeline Management",
+      "Stakeholder Management",
+      "Communication",
+      "Leadership",
+      "Planning",
+      "Task Management"
+    ],
+    "weaknesses": [
+      "Technical Skills",
+      "Coding",
+      "Software Development",
+      "System Design",
+      "Engineering Knowledge",
+      "Over-Tool Dependency",
+      "Conflict Resolution",
+      "Change Management",
+      "Budget Control"
+    ]
+  }
+,
+  "sales": {
+    "strengths": [
+      "Sales",
+      "Negotiation",
+      "Lead Generation",
+      "CRM",
+      "Customer Relationship",
+      "Closing",
+      "Persuasion",
+      "Communication",
+      "Marketing",
+      "Cold Calling"
+    ],
+    "weaknesses": [
+      "Product Knowledge",
+      "Data Analysis",
+      "Reporting",
+      "Documentation",
+      "Strategic Planning",
+      "Finance"
+    ]
+  },
+
+  "civil_engineer": {
+    "strengths": [
+      "Civil Engineering",
+      "Structural Analysis",
+      "AutoCAD",
+      "Revit",
+      "Project Estimation",
+      "Surveying",
+      "Construction Safety",
+      "Blueprint",
+      "Site Management",
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Digital Tools",
+      "BIM",
+      "Cost Estimation Software",
+      "IoT Construction",
+      "Automation",
+      "Data Analysis",
+      "Software Skills"
+    ]
+  },
+
+  "finance": {
+    "strengths": [
+      "Finance",
+      "Investment",
+      "Portfolio Analysis",
+      "Financial Modeling",
+      "Valuation",
+      "Market Analysis",
+      "Capital Budgeting",
+      "Accounting",
+      "Risk Management",
+      "Excel"
+    ],
+    "weaknesses": [
+      "Data Science",
+      "Programming",
+      "Automation",
+      "Machine Learning",
+      "Blockchain",
+      "Communication",
+      "Visualization Tools"
+    ]
+  },
+
+  "architect": {
+    "strengths": [
+      "Architecture",
+      "Spatial Design",
+      "BIM",
+      "AutoCAD",
+      "Revit",
+      "Sustainable Design",
+      "Blueprint",
+      "3D Modeling",
+      "Sketching",
+      "Design Thinking"
+    ],
+    "weaknesses": [
+      "Cost Estimation",
+      "Engineering Integration",
+      "Construction Management",
+      "Project Delays",
+      "Software Development",
+      "Data Analysis"
+    ]
+  },
+
+  "food_industry": {
+    "strengths": [
+      "Food Safety",
+      "HACCP",
+      "Supply Chain",
+      "Quality Assurance",
+      "Culinary",
+      "Food Production",
+      "Logistics",
+      "Cost Control",
+      "Inventory Management"
+    ],
+    "weaknesses": [
+      "Waste Management",
+      "Automation",
+      "Labor Optimization",
+      "Digital Systems",
+      "Data Analytics",
+      "AI Integration"
+    ]
+  },
+
+  "java_developer": {
+    "strengths": [
+      "Java",
+      "Spring Boot",
+      "JVM",
+      "Microservices",
+      "Multi-threading",
+      "Security",
+      "REST API",
+      "Hibernate",
+      "OOP",
+      "Backend Development"
+    ],
+    "weaknesses": [
+      "Memory Optimization",
+      "Frontend Development",
+      "DevOps",
+      "Cloud",
+      "Docker",
+      "Kubernetes",
+      "Performance Tuning"
+    ]
+  },
+
+  "operations_manager": {
+    "strengths": [
+      "Operations Management",
+      "Process Optimization",
+      "Supply Chain",
+      "Lean Six Sigma",
+      "Cost Reduction",
+      "Workflow Automation",
+      "Inventory Control",
+      "Leadership",
+      "Planning",
+      "Logistics"
+    ],
+    "weaknesses": [
+      "Technical Skills",
+      "Programming",
+      "Digital Transformation",
+      "Agile",
+      "Data Analytics",
+      "AI Tools"
+    ]
+  },
+
+  "business_analyst": {
+    "strengths": [
+      "Business Analysis",
+      "Requirement Gathering",
+      "Gap Analysis",
+      "Stakeholder Management",
+      "User Stories",
+      "BPMN",
+      "Data Analysis",
+      "Communication",
+      "Excel",
+      "Documentation"
+    ],
+    "weaknesses": [
+      "System Design",
+      "Programming",
+      "Software Development",
+      "Technical Architecture",
+      "Database",
+      "Cloud",
+      "DevOps"
+    ]
+  },
+
+  "health_fitness": {
+    "strengths": [
+      "Fitness",
+      "Nutrition",
+      "Exercise Science",
+      "Coaching",
+      "Health Assessment",
+      "Wellness",
+      "Training Program",
+      "Motivation",
+      "Physiology"
+    ],
+    "weaknesses": [
+      "Business Management",
+      "Marketing",
+      "Data Analytics",
+      "Digital Tools",
+      "Client Retention",
+      "Automation"
+    ]
+  },
+
+  "network_security_engineer": {
+    "strengths": [
+      "Cyber Security",
+      "Firewall",
+      "IDS",
+      "IPS",
+      "VPN",
+      "Encryption",
+      "Penetration Testing",
+      "Vulnerability Assessment",
+      "Network Security",
+      "Security Operations"
+    ],
+    "weaknesses": [
+      "Software Development",
+      "DevOps",
+      "Cloud Security",
+      "Automation",
+      "Documentation",
+      "Incident Reporting"
+    ]
+  },
+
+  "dotnet_developer": {
+    "strengths": [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "Entity Framework",
+      "Azure",
+      "WPF",
+      "MAUI",
+      "Microservices",
+      "REST API",
+      "Backend Development"
+    ],
+    "weaknesses": [
+      "Cross-platform Development",
+      "Linux",
+      "Open Source Tools",
+      "DevOps",
+      "Docker",
+      "Kubernetes",
+      "Performance Optimization"
+    ]
+  },
+
+  "apparel": {
+    "strengths": [
+      "Fashion Design",
+      "Textile",
+      "Merchandising",
+      "Branding",
+      "Sourcing",
+      "Production",
+      "Trend Forecasting",
+      "Design",
+      "Retail"
+    ],
+    "weaknesses": [
+      "Sustainability",
+      "Automation",
+      "Supply Chain Optimization",
+      "Inventory Management",
+      "Digital Marketing",
+      "Data Analytics"
+    ]
+  },
+
+  "automobile": {
+    "strengths": [
+      "Automotive Engineering",
+      "Vehicle Dynamics",
+      "EV Technology",
+      "Manufacturing",
+      "Safety Engineering",
+      "Embedded Systems",
+      "Supply Chain",
+      "Mechanical Systems"
+    ],
+    "weaknesses": [
+      "Software Development",
+      "AI Integration",
+      "IoT",
+      "Cloud Systems",
+      "Cost Optimization",
+      "Regulatory Compliance"
+    ]
+  },
+
+  "public_relations": {
+    "strengths": [
+      "Public Relations",
+      "Media Relations",
+      "Copywriting",
+      "Branding",
+      "Event Planning",
+      "Public Speaking",
+      "Influencer Marketing",
+      "Communication",
+      "Marketing"
+    ],
+    "weaknesses": [
+      "Data Analytics",
+      "ROI Measurement",
+      "Crisis Management",
+      "Automation",
+      "Digital Tools",
+      "Reporting"
+    ]
+  },
+
+  "web_designing": {
+    "strengths": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "UI Design",
+      "UX Design",
+      "Responsive Design",
+      "Accessibility",
+      "WordPress",
+      "Webflow",
+      "Prototyping"
+    ],
+    "weaknesses": [
+      "Backend Development",
+      "System Design",
+      "Performance Optimization",
+      "SEO",
+      "Database",
+      "Cloud"
+    ]
+  },
+
+  "construction": {
+    "strengths": [
+      "Construction",
+      "Site Management",
+      "Safety",
+      "Structural Engineering",
+      "Budgeting",
+      "Planning",
+      "Contract Management",
+      "Resource Management",
+      "Blueprint"
+    ],
+    "weaknesses": [
+      "Digital Transformation",
+      "BIM",
+      "Automation",
+      "IoT",
+      "Data Analytics",
+      "Cost Overruns"
+    ]
+  },
+
+  "blockchain": {
+    "strengths": [
+      "Blockchain",
+      "Smart Contracts",
+      "Solidity",
+      "dApps",
+      "Cryptography",
+      "Ethereum",
+      "Hyperledger",
+      "Tokenomics",
+      "Consensus Algorithms"
+    ],
+    "weaknesses": [
+      "Scalability",
+      "Regulation",
+      "Security Risks",
+      "Energy Consumption",
+      "Adoption Barriers",
+      "UX Design"
+    ]
+  },
+
+  "bpo": {
+    "strengths": [
+      "BPO",
+      "Customer Support",
+      "Call Center",
+      "Technical Support",
+      "CRM",
+      "Process Outsourcing",
+      "Telemarketing",
+      "Communication",
+      "Multilingual Support"
+    ],
+    "weaknesses": [
+      "Turnover",
+      "Quality Control",
+      "Data Privacy",
+      "Automation",
+      "Skill Development",
+      "Reporting"
+    ]
+  }
+
+}
