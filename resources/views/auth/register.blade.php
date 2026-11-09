@@ -15,7 +15,6 @@
         --bg-glass: rgba(255, 255, 255, 0.75);
     }
 
-    /* KHÔNG CHO CUỘN TRANG */
     html, body {
         height: 100%;
         margin: 0;

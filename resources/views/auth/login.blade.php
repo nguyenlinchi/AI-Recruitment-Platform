@@ -109,7 +109,7 @@
         justify-content: flex-end;
         margin-top:100px;
     }
-
+ /* màu card */
     .login-card {
         width: 100%;
         max-width: 400px; 
@@ -179,6 +179,7 @@
         <!-- Trái -->
         <div class="auth-left">
             <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill">Smart AI Recruitment</span>
+            <h1>Sẵn sàng cho <br> Bước tiến mới?</h1>
             <h1>Sẵn sàng cho <br> Bước tiến mới?</h1>
             <p>Hệ thống tuyển dụng thông minh giúp bạn tối ưu hóa hồ sơ và kết nối đúng nhà tuyển dụng phù hợp.</p>
 
