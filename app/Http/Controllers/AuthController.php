@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    // ================= HIỂN THỊ FORM =================
+    // HIỂN THỊ FORM 
     public function showRegister()
     {
         return view('auth.register');
