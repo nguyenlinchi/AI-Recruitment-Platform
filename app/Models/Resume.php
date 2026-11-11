@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+// Resume
 class Resume extends Model
 {
     protected $table = 'resumes';
