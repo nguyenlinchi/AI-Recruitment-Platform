@@ -13,7 +13,6 @@ class ResumeController extends Controller
     {
         $resume = Resume::with('candidate')->findOrFail($resume_id);
 
-        // Danh sách template hợp lệ
         $allowedTemplates = ['professional', 'professional1', 'professional2', 'professional3'];
 
         if (!in_array($template, $allowedTemplates)) {

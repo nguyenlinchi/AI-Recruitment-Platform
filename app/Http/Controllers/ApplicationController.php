@@ -21,7 +21,6 @@ class ApplicationController extends EmployerBaseController
 
         $applications = Application::whereIn('job_id', $jobIds)
 
-            // search candidate
             ->when($request->candidate, function ($q) use ($request) {
 
                 $q->whereHas('candidate', function ($sub) use ($request) {
