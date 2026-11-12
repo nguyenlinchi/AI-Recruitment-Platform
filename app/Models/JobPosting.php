@@ -2,7 +2,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+// employer
 class JobPosting extends Model
 {
     protected $table = 'job_postings';

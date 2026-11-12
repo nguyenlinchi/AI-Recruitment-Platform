@@ -12,7 +12,6 @@ use App\Models\Location;
 
 class JobPostingController extends EmployerBaseController
 {
-    // ================= LIST =================
     /*public function index()
     {
         $employer = $this->getEmployer();

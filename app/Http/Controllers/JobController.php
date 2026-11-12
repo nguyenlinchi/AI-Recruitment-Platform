@@ -8,7 +8,7 @@ use App\Models\Category;
 use App\Models\Salary;
 use App\Models\Location;
 use App\Helpers\SavedJobHelper;
-
+// JobController
 
 class JobController extends Controller
 {
