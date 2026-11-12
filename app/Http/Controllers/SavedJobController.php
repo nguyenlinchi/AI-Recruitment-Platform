@@ -31,7 +31,6 @@ class SavedJobController extends Controller
         ]);
     }
 
-    // KIỂM TRA ĐÃ SAVE CHƯA
     $savedJob = SavedJob::where(
             'candidate_id',
             $candidate->candidate_id
