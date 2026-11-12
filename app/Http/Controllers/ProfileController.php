@@ -30,7 +30,6 @@ class ProfileController extends Controller
             // Lấy danh sách hồ sơ nền tảng trực tuyến
             $resumes = Resume::where('candidate_id', $candidate->candidate_id)->get();
 
-            // Lấy lịch sử ứng tuyển (Eager Loading với 'job' để tối ưu query)
             $applications = Application::where('candidate_id', $candidate->candidate_id)
                 ->with('job')
                 ->latest('application_id')

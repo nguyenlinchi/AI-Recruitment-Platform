@@ -40,7 +40,6 @@ class CVController extends Controller
             $recommendedJobs = collect();
 
             if (!empty($predicted_industry)) {
-                // Tìm Category theo tên ngành (sửa từ 'name' thành 'category_name')
                 $category = Category::where('category_name', 'LIKE', "%{$predicted_industry}%")
                                     ->first();
 
