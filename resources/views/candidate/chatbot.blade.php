@@ -61,6 +61,7 @@
     setUIBusy(true);
 
     // show temporary bot "typing" bubble
+    // show temporary bot "typing" bubble
     const typingRow = document.createElement('div');
     typingRow.className = 'msg bot';
     const typingBubble = document.createElement('div');
