@@ -788,7 +788,7 @@ details[open] .faq-icon::after{
         <div class="mbti-text">
             <p><strong>MBTI</strong> là phương pháp trắc nghiệm giúp phân tích tính cách con người thông qua các câu hỏi.</p>
             <p>
-                Hiện nay, MBTI được coi là công cụ khám phá tính cách phổ biến và chính xác.
+                Hiện nay,MBTI được coi là công cụ khám phá tính cách phổ biến và chính xác.
                 Trong công việc, MBTI giúp mỗi cá nhân định hướng nghề nghiệp và lựa chọn môi trường phù hợp.
             </p>
 
