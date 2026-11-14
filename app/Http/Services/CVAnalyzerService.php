@@ -17,7 +17,8 @@ class CVAnalyzerService
     public function analyze(UploadedFile $file)
     {
         try {
-            $response = Http::timeout(120)   // Tăng timeout vì OCR + RoBERTa
+            //timeout là 120s
+            $response = Http::timeout(120)   // Tăng timeout vì OCR và RoBERTa
                 ->attach(
                     'file', 
                     $file->get(), 

@@ -11,6 +11,7 @@ class CareerGuide extends Model
     protected $primaryKey = 'guide_id';
 
     // PHẢI bật timestamps
+    // PHẢI bật timestamps
     public $timestamps = true;
 
     protected $fillable = [

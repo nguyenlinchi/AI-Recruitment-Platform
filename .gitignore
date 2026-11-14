@@ -16,6 +16,8 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
 /resources/views/*
 !/resources/views/admin/
 !/resources/views/admin/**
+
