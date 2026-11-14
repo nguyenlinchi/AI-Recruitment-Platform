@@ -3,7 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * Model đại diện cho cấp bậc hoặc trình độ công việc.
+ * Khai báo bảng dữ liệu và mối quan hệ với các tin tuyển dụng.
+ */
 class Level extends Model
 {
     protected $table = 'levels'; // tên bảng
