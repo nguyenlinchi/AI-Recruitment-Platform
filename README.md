@@ -147,7 +147,6 @@ Hệ thống sử dụng cơ sở dữ liệu quan hệ **MySQL** gồm các b�
 * **XAMPP** (hỗ trợ PHP >= 8.1 và MySQL).
 * **Composer** (Trình quản lý gói cho PHP).
 * **Python >= 3.9** và `pip`.
-* **Tesseract OCR:** Tải và cài đặt bản cài đặt cho Windows tại [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract/wiki). *(Lưu ý: Nhớ thêm đường dẫn cài đặt Tesseract vào biến môi trường `PATH` của Windows, ví dụ: `C:\Program Files\Tesseract-OCR`)*.
 
 ### 2. Cài đặt Cơ sở dữ liệu
 1. Mở **XAMPP Control Panel**, khởi động **Apache** và **MySQL**.
