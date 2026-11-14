@@ -19,6 +19,7 @@ class ChatController extends Controller
 
         try {
             // Gọi API
+             // Gọi API
             $response = Http::withHeaders([
                 'Content-Type' => 'application/json'
             ])->post($url, [

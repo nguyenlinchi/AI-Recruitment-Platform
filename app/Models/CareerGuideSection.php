@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class CareerGuideSection extends Model
 {
+    // PHẢI bật timestamps
     protected $table = 'career_guide_sections';
     public $timestamps = false;
 

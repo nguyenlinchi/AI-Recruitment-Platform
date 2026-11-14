@@ -17,6 +17,7 @@ class MbtiController extends Controller
     }
 
     // Trang làm bài test
+    // Trang làm bài test
     public function index()
     {
         $questions = [
