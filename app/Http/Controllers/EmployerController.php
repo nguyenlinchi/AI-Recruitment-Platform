@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\JobPosting;
 use App\Models\Application;
 use Illuminate\Support\Facades\DB;
-
+// code employer
 class EmployerController extends EmployerBaseController
 {
     public function dashboard()

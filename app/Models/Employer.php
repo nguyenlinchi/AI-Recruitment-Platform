@@ -21,6 +21,7 @@ class Employer extends Model
         'cover_image',
         'avatar'
     ];
+    //job
      public function jobs()
     {
         return $this->hasMany(JobPosting::class, 'employer_id');

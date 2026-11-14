@@ -7,7 +7,7 @@ use App\Models\Employer;
 use App\Models\JobPosting;
 use App\Models\Location;
 use App\Models\Level;
-
+// code employer
 
 class CompanyController extends Controller
 {
