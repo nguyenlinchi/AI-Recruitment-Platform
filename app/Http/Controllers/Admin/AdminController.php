@@ -11,6 +11,14 @@ use App\Models\Application;
 
 class AdminController extends Controller
 {
+
+    /**
+     * Tổng hợp dữ liệu hiển thị trên trang Dashboard của quản trị viên.
+     * Thống kê số lượng tài khoản, tin tuyển dụng và bài viết hướng nghiệp;
+     * đồng thời thống kê trạng thái tin tuyển dụng, hồ sơ ứng tuyển
+     * và lấy danh sách 5 tin tuyển dụng mới nhất.
+     */
+
     public function dashboard()
     {
         // TOTAL
@@ -18,12 +26,12 @@ class AdminController extends Controller
         $jobs = JobPosting::count();
         $careers = CareerGuide::count();
 
-        // JOB STATUS
+        // JOB STATUS Thống kê tin tuyển dụng theo trạng thái
         $approvedJobs = JobPosting::where('status', 1)->count();
         $pendingJobs = JobPosting::where('status', 0)->count();
         $hiddenJobs = JobPosting::where('status', 2)->count();
 
-        // APPLICATION STATUS
+        // APPLICATION STATUS Thống kê hồ sơ ứng tuyển theo trạng thái
         $pendingApplications = Application::where('status', 0)->count();
 
         $approvedApplications = Application::where('status', 1)->count();
@@ -31,6 +39,7 @@ class AdminController extends Controller
         $rejectedApplications = Application::where('status', 2)->count();
 
         // LATEST JOBS
+        // Lấy 5 tin tuyển dụng mới nhất, kèm thông tin danh mục, nhà tuyển dụng và địa điểm
         $latestJobs = JobPosting::with([
                 'category',
                 'employer',

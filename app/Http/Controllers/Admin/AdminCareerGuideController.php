@@ -13,6 +13,10 @@ use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 class AdminCareerGuideController extends Controller
 {
     // ================= INDEX =================
+    /**
+     * Lấy danh sách bài viết hướng nghiệp kèm thông tin danh mục,
+     * đồng thời lấy danh sách danh mục để hiển thị trên trang quản lý.
+     */
     public function index()
     {
         $careers = CareerGuide::with('category')
@@ -26,8 +30,11 @@ class AdminCareerGuideController extends Controller
             compact('careers', 'categories')
         );
     }
-
     // ================= STORE =================
+    /**
+     * Tiếp nhận thông tin bài viết hướng nghiệp từ biểu mẫu,
+     * tải ảnh đại diện lên Cloudinary và lưu bài viết vào cơ sở dữ liệu.
+     */
     public function store(Request $request)
     {
         $request->validate([
@@ -81,8 +88,12 @@ class AdminCareerGuideController extends Controller
             'Thêm thành công'
         );
     }
-
     // ================= UPDATE =================
+    /**
+     * Tìm bài viết theo ID và cập nhật nội dung.
+     * Nếu có ảnh đại diện mới thì tải ảnh lên Cloudinary,
+     * nếu không thì tiếp tục sử dụng ảnh hiện tại.
+     */
     public function update(Request $request, $id)
     {
         $career = CareerGuide::findOrFail($id);
