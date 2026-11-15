@@ -8,7 +8,11 @@ use App\Models\JobPosting;
 
 class AdminJobPostingController extends Controller
 {
-    // ================= LIST =================
+    /**
+     * Hiển thị danh sách tin tuyển dụng trong trang quản trị.
+     * Lấy kèm thông tin nhà tuyển dụng, danh mục, địa điểm,
+     * loại công việc, mức lương và cấp bậc để hiển thị đầy đủ.
+     */
     public function index()
     {
         $jobs = JobPosting::with([
@@ -25,7 +29,11 @@ class AdminJobPostingController extends Controller
         return view('admin.job.index', compact('jobs'));
     }
 
-    // ================= DETAIL =================
+    /**
+     * Hiển thị thông tin chi tiết của một tin tuyển dụng.
+     * Tìm tin theo ID và lấy kèm các dữ liệu liên quan.
+     * Nếu không tìm thấy tin tuyển dụng, hệ thống trả về lỗi 404.
+     */
     public function show($id)
     {
         $job = JobPosting::with([
@@ -40,7 +48,11 @@ class AdminJobPostingController extends Controller
         return view('admin.job.show', compact('job'));
     }
 
-    // ================= UPDATE STATUS =================
+    /**
+     * Cập nhật trạng thái của tin tuyển dụng.
+     * Nhận trạng thái mới từ yêu cầu, lưu vào cơ sở dữ liệu
+     * và quay lại trang trước kèm thông báo kết quả.
+     */
     public function updateStatus(Request $request, $id)
     {
         $job = JobPosting::findOrFail($id);
@@ -54,7 +66,10 @@ class AdminJobPostingController extends Controller
         );
     }
 
-    // ================= DELETE =================
+    /**
+     * Xóa tin tuyển dụng theo ID.
+     * Sau khi xóa, quay lại trang trước và hiển thị thông báo.
+     */
     public function destroy($id)
     {
         JobPosting::destroy($id);
