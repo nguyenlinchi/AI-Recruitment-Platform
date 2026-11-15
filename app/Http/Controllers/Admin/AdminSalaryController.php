@@ -8,6 +8,10 @@ use App\Models\Salary;
 
 class AdminSalaryController extends Controller
 {
+    /**
+     * Hiển thị danh sách các khoảng mức lương trong hệ thống.
+     * Lấy toàn bộ dữ liệu từ bảng Salary và chuyển sang giao diện quản trị.
+     */
     public function index()
     {
         $items = Salary::all();
@@ -15,6 +19,10 @@ class AdminSalaryController extends Controller
         return view('admin.salaries.index', compact('items'));
     }
 
+    /**
+     * Thêm một khoảng mức lương mới.
+     * Nhận giá trị khoảng lương từ biểu mẫu và lưu vào cơ sở dữ liệu.
+     */
     public function store(Request $request)
     {
         Salary::create([
@@ -24,6 +32,10 @@ class AdminSalaryController extends Controller
         return back();
     }
 
+    /**
+     * Cập nhật thông tin khoảng mức lương theo ID.
+     * Tìm bản ghi cần sửa, cập nhật giá trị mới và lưu lại.
+     */
     public function update(Request $request, $id)
     {
         Salary::findOrFail($id)->update([
@@ -33,6 +45,10 @@ class AdminSalaryController extends Controller
         return back();
     }
 
+    /**
+     * Xóa khoảng mức lương theo ID.
+     * Sau khi thực hiện, quay lại trang quản trị trước đó.
+     */
     public function destroy($id)
     {
         Salary::destroy($id);
